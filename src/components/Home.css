@@ -1,0 +1,58 @@
+h1,
+h2 {
+    color: #ffffff;
+    margin: 0;
+}
+
+.left {
+    margin: 5%;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.HeroSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-inline: 10%;
+    padding-top: 5%;
+}
+
+/* Image styling */
+.right>img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .HeroSection {
+        flex-direction: column;
+        text-align: center;
+        padding-inline: 5%;
+    }
+
+    .left {
+        margin: 0;
+    }
+
+    .right>img {
+        max-width: 300px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
