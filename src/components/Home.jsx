@@ -11,9 +11,8 @@ function Home() {
         <div className="left">
           <div className="left-content">
             <h1>Hi, I am </h1>
-            <h1 style={{ color: "#EB5C76" }}>Ram Gupta</h1>
+            <h1 className="name">Ram Gupta</h1>
           </div>
-          <br></br>
           <h2>Flutter Developer</h2>
         </div>
         <div className="right">
