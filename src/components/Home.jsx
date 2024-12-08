@@ -13,7 +13,7 @@ function Home() {
             <h1>Hi, I am </h1>
             <h1 className="name">Ram Gupta</h1>
           </div>
-          <h2>Flutter Developer</h2>
+          <h2>Software Developer</h2>
         </div>
         <div className="right">
           <img src={photo} alt="Ram Gupta" height={500} />
